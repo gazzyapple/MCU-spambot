@@ -1,0 +1,206 @@
+{
+    "name": "MCU Spam Bot",
+    "description": "MOST POWERFUL + STABLE SPAM USERBOTS",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot",
+        "deadlySameer",
+        "SpamBots"
+    ],
+    "repository": "https://t.me/MCU_spambot",
+    "website": "https://t.me/MCU_spambot",
+    "success_url": "https://t.me/MCU_spambot",
+    "env": {
+      "API_ID": {
+        "description": "Fill Api ID Take this value from My.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "ALIVE_PIC": {
+        "description": "your alive pic or video",
+        "value": "",
+        "required": false
+      },
+      "API_HASH": {
+        "description": "Fill Api hash Take this value from My.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "CMD_HNDLR": {
+            "description": "Custom command handler.",
+            "value": "!",
+            "required": false
+      },
+      "SUDO_USER": {
+            "description": "Sudo users id space by space",
+            "value": "",
+            "required": false
+      },
+      "OWNER_ID": {
+            "description": "owner Id",
+            "value": "",
+            "required": true
+      },
+      "HEROKU_API_KEY": {
+            "description": "Your Heroku api key to update your bot",
+            "value": "",
+            "required": false 
+      },
+      "HEROKU_APP_NAME": {
+            "description": "Your app name to Update your bot",
+          "value": "",
+          "required": false  
+      },
+      "BOT_NAME": {
+        "description": "Enter your Bot name",
+        "value": "",
+        "required": true
+      },
+      "TOKEN_COUNT": {
+        "description": "Type total no of bot tokens you going to enter",
+        "value": "",
+        "required": true
+      }, 
+      "BOT_TOKEN0": {
+        "description": "Enter Bot Token serially, if TOKEN_COUNT = 3,Then fill BOT_TOKEN0 BOT_TOKEN1 BOT_TOKEN2",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN1": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN2": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN3": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN4": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN5": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN6": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN7": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN8": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN9": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN10": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN11": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN12": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN13": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN14": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN15": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN16": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN17": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN18": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN19": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN20": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN21": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN22": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN23": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN24": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": false
+      }
+    },
+  "stack": "heroku-20",
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
